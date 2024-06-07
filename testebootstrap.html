@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DanMovies - Séries e Filmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    img {
+        height: 350px;
+    }
+
+a {
+    
+}
+
+    body {
+        background-color: rgb(92, 92, 92);
+    }
+
+    .card {
+        background-color: rgb(226, 226, 226);
+    }
+
+    .list-group-item {
+        background-color: rgb(180, 180, 180);
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DanMovies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre o site</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                            <li><a class="dropdown-item" href="#">Ação</a></li>
+                            <li><a class="dropdown-item" href="#">Suspense</a></li>
+                            <li><a class="dropdown-item" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Mistério</a></li>
+                            <li><a class="dropdown-item" href="#">História</a></li>
+                            <li><a class="dropdown-item" href="#">Animação</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Outros gêneros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar filmes" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="card" style="width: 18rem;">
+            <img src="img/Jogos-Vorazes-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jogos Vorazes</h5>
+                <p class="card-text">Na região antigamente conhecida como América do Norte, a Capital de Panem controla
+                    12 distritos e os força a escolher um garoto e uma garota, conhecidos como tributos, para competir
+                    em um evento anual televisionado. Todos os cidadãos assistem aos temidos jogos, no qual os jovens
+                    lutam até a morte, de modo que apenas um saia vitorioso. A jovem Katniss Everdeen, do Distrito 12,
+                    confia na habilidade de caça e na destreza com o arco, além dos instintos aguçados, nesta competição
+                    mortal.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/mfmrPu43DF8?si=saTELSGh4mQZGV8M">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Jogos-Vorazes-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jogos Vorazes - Em Chamas</h5>
+                <p class="card-text">Após saírem vencedores da última edição dos Jogos Vorazes, as atitudes desafiadoras
+                    de Katniss e Peeta acabam inspirando uma rebelião contra a opressiva Capital. No entanto, os dois
+                    são obrigados a participarem de uma edição especial do torneio, o Massacre Quaternário, que acontece
+                    apenas a cada 25 anos, e reúne vencedores das edições anteriores.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/YEFui27nQ1o?si=Ys09_13xrlJYFy6z">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Jogos-Vorazes-3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jogos Vorazes - A Esperança 1</h5>
+                <p class="card-text">Após sobreviver à temível arena dos Jogos Vorazes, Katniss Everdeen está desanimada
+                    e destruída. Depois que a Capital reduziu o Distrito 12 a destroços, ela se refugiou no Distrito 13.
+                    Peeta Mellark foi submetido a uma lavagem cerebral, e agora está sob o domínio de Snow. Então, a
+                    presidência quer que Katniss lidere uma "resistência" e mobilize a população em uma empreitada que
+                    irá colocá-la no centro da trama para desmascarar Snow.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/CORKGv8T9jw?si=tyjgdQdj5Bt14ocL">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Jogos-Vorazes-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jogos Vorazes - A Esperança 2</h5>
+                <p class="card-text">Katniss e seus amigos Peeta, Gale e Finnick embarcam em sua última missão:
+                    organizar uma resistência contra o presidente e libertar o povo de Panem. A coragem de Katniss faz
+                    renascer a esperança em um país disposto a se livrar da opressão.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/yeCg-5BIn3k?si=SrejdaRk_jhn0c0M">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Jogos-Vorazes-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jogos Vorazes - Cantiga dos pássaros e das serpentes</h5>
+                <p class="card-text">Anos antes de se tornar o presidente tirânico de Panem, Coriolanus Snow, de 18
+                    anos, vê uma chance de mudar sua sorte quando se torna o mentor de Lucy Gray Baird, o tributo
+                    feminino do Distrito 12.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/RDE6Uz73A7g?si=V2xE3aElypOPco_-">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/divergente.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Divergente</h5>
+                <p class="card-text">Na futurística cidade de Chicago, ao completar 16 anos, Beatrice precisa escolher
+                    entre as diferentes facções em que a cidade está dividida. Cada uma representa um valor diferente e,
+                    ao contrário de sua família, a jovem opta pela facção dos destemidos, a Audácia. Ela então se torna
+                    Tris e inicia uma jornada para afastar seus medos e descobrir quem realmente é. Durante essa
+                    jornada, acaba conhecendo o jovem Quatro, um rapaz experiente que tem o dom de intrigá-la e de
+                    encantá-la ao mesmo tempo.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/B_fty0k6SNI?si=XzkVRb-lu-RiCKse">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div class="card" style="width: 18rem;">
+            <img src="img/sorria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sorria</h5>
+                <p class="card-text">Após um paciente cometer um suicídio brutal em sua frente, a psiquiatra Rose é
+                    perseguida por uma entidade maligna que muda de forma. Enquanto tenta escapar desse pesadelo, Rose
+                    também precisa enfrentar seu passado conturbado para sobreviver.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/BcDK7lkzzsU?si=DiyReAxzoSEP8_hS">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Midsommar_2019.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Midsommar - O mal não espera a noite</h5>
+                <p class="card-text">Após vivenciar uma tragédia pessoal, Dani vai com o namorado Christian e um grupo
+                    de amigos até a Suécia para participar de um festival local de verão. Mas, ao invés das férias
+                    tranquilas com a qual todos sonhavam, o grupo se depara com rituais bizarros de uma adoração pagã.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/1Vnghdsjmd0?si=ek1SF91ncRTeQpuJ">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/divertidamente.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Divertida Mente</h5>
+                <p class="card-text">Com a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de
+                    idade, ficam extremamente agitadas. Uma confusão na sala de controle do seu cérebro deixa a Alegria
+                    e a Tristeza de fora, afetando a vida de Riley radicalmente.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/iMfhiDnJeE8?si=axk8NFcPVOpQ8L9m">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/coringa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Coringa</h5>
+                <p class="card-text">Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur
+                    Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua
+                    ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior
+                    representante.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/jfVTJm9NilA?si=VJ4EICr3LEP9uUTj">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/a proposta.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">A proposta</h5>
+                <p class="card-text">Margaret Tate é uma poderosa editora de livros que corre o risco de ser deportada
+                    para o Canadá, seu país natal. Para poder permanecer em Nova York, ela diz estar noiva de Andrew,
+                    seu assistente. O jovem aceita ajudá-la, mas impõe algumas condições, entre elas ir para o Alasca e
+                    conhecer sua família excêntrica. Com um oficial da imigração sempre à espreita, Margaret e Andrew
+                    têm que seguir o plano de casamento apesar de diversos problemas.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/dbYST9QhCYY?si=edBheLTz5hSEdWQj">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/viva.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Viva - A vida é uma festa</h5>
+                <p class="card-text">Apesar da proibição da música por gerações de sua família, o jovem Miguel sonha em
+                    se tornar um músico talentoso como seu ídolo Ernesto de la Cruz. Desesperado para provar seu
+                    talento, Miguel se encontra na deslumbrante e colorida Terra dos Mortos. Depois de conhecer um
+                    charmoso malandro chamado Héctor, os dois novos amigos embarcam em uma jornada extraordinária para
+                    desvendar a verdadeira história por trás da história da família de Miguel.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><button><a
+                            href="https://youtu.be/iLmZZV-Nkuk?si=GWT-4EM00c2TXgLY">Assistir</a></button></li>
+                <li class="list-group-item"><button>Adicionar à lista</button></li>
+                <li class="list-group-item"><button>Avaliar</button></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
